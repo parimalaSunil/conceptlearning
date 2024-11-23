@@ -1,4 +1,16 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/auth/callback/route": "app/auth/callback/route.js",
+  "/contact/page": "app/contact/page.js",
+  "/editReviews/page": "app/editReviews/page.js",
+  "/forgot-password/page": "app/forgot-password/page.js",
+  "/login/page": "app/login/page.js",
+  "/lesson/page": "app/lesson/page.js",
+  "/page": "app/page.js",
   "/reviews/ParentReview/page": "app/reviews/ParentReview/page.js",
-  "/editReviews/page": "app/editReviews/page.js"
+  "/reviews/studentsreview/page": "app/reviews/studentsreview/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/protected/reset-password/page": "app/protected/reset-password/page.js",
+  "/protected/page": "app/protected/page.js"
 }
