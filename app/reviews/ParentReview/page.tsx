@@ -30,7 +30,7 @@
 //         setReviews(reviewsData || []);
 //       }
 //     };
-    
+
 //     getdata();
 //   }, []);
 
@@ -197,34 +197,67 @@ const Parentreview: React.FC = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        setLoading(true); // Start loading
-        console.log("Fetching data.....................");
-        const response = await fetch('/data/parentReviews.json');
+        setLoading(true);
+        console.log("Fetching data from Google Sheets...");
+        const sheetId = '1_XgwtS7vj6DguQUFVORWk5CeU4aHpYHD97O3Lj2XmAY';
+        const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json`;
+  
+        const response = await fetch(url);
         if (!response.ok) {
-          throw new Error('Failed to fetch data');
+          throw new Error("Failed to fetch data from Google Sheets");
         }
-        const data = await response.json();
-        console.log("data:", data);
-        setReviews(data.parentReviews || []);
+  
+        const rawText = await response.text();
+        console.log("Raw Response Text:", rawText);
+  
+        const parseGoogleSheetsResponse = (rawText: string) => {
+          try {
+            const jsonString = rawText.substring(47).slice(0, -2);
+            const json = JSON.parse(jsonString);
+            return json;
+          } catch (error) {
+            console.error("Error parsing Google Sheets response:", error);
+            return null;
+          }
+        };
+        const jsonData = parseGoogleSheetsResponse(rawText);
+        console.log("Parsed JSON:", jsonData);
+  
+        if (jsonData) {
+          // Extract rows from the parsed JSON
+          const rows =
+            jsonData?.table?.rows?.map((row: any) =>
+              row?.c?.reduce((acc: any, cell: any, index: number) => {
+                const headers = ['id', 'name', 'category', 'subject', 'batch', 'feedback'];
+                acc[headers[index] || `field_${index}`] = cell?.v || '';
+                return acc;
+              }, {})
+            ) || [];
+  
+          console.log("Processed Rows:", rows);
+          setReviews(rows);
+        }
       } catch (err) {
-        console.error("Error in useEffect:", err);
-        setError('Something went wrong.');
+        console.error("Error in fetching Google Sheets data:", err);
+        setError("Something went wrong while fetching data.");
       } finally {
-        setLoading(false); // Stop loading
+        setLoading(false);
       }
     };
   
     getData();
   }, []);
   
+  
 
   return (
-    <div className='bg-gradient-to-r from-blue-100 to-blue-50 overflow-hidden'>
+    <div className="bg-gradient-to-r from-blue-100 to-blue-50 overflow-hidden">
       <div className="p-6 rounded-lg container mx-auto">
         <h1 className="text-5xl md:text-6xl text-center font-bold mb-10 text-black">
           Parent <br />
-          <span className='text-blue-600'>Testimonials</span>
+          <span className="text-blue-600">Testimonials</span>
         </h1>
+
         {loading ? (
           <div className="flex justify-center items-center py-10">
             <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
@@ -235,9 +268,9 @@ const Parentreview: React.FC = () => {
           <ul className="space-y-6 flex flex-col justify-center items-center">
             {reviews.map((review, index) => (
               <li
-                key={review.id}
+                key={review.id || index}
                 data-aos={`${index % 2 === 0 ? 'fade-up-right' : 'fade-up-left'}`}
-                className={`${index % 2 === 0 ? 'chat-start' : 'chat-end'} chat transition-transform transform w-full md:w-1/2`}
+                className={`chat ${index % 2 === 0 ? 'chat-start' : 'chat-end'} transition-transform transform w-full md:w-1/2`}
               >
                 <div className="chat-bubble p-4 bg-white flex flex-col space-y-2">
                   <span className="text-lg font-semibold text-blue-500">{review.name}</span>
@@ -251,16 +284,20 @@ const Parentreview: React.FC = () => {
           </ul>
         )}
       </div>
-      <div className='px-4 py-20'>
-        <div className='container mx-auto bg-opacity-80 rounded-lg p-6'>
-          <div className='flex flex-col gap-6'>
+
+      <div className="px-4 py-20">
+        <div className="container mx-auto bg-opacity-80 rounded-lg p-6">
+          <div className="flex flex-col gap-6">
             <div className="container mx-auto flex justify-center items-center">
-              <Link href="/reviews/studentsreview" className='text-center text-black text-2xl font-bold border-2-blue-500 bg-white p-5 rounded-2xl hover:bg-blue-500 group-hover:text-white transition-colors duration-300 group'>
-                <button className="flex items-center gap-2">
-                  Students <span className='text-blue-600 group-hover:text-white'>Testimonials</span>
-                  <IoMdArrowRoundForward className="group-hover:text-white" />
-                </button>
+              <Link href="/reviews/studentsreview" legacyBehavior>
+                <a className="text-center text-black text-2xl font-bold border-2 border-blue-500 bg-white p-5 rounded-2xl hover:bg-blue-500 group-hover:text-white transition-colors duration-300 group">
+                  <button className="flex items-center gap-2">
+                    Students <span className="text-blue-600 group-hover:text-white">Testimonials</span>
+                    <IoMdArrowRoundForward className="group-hover:text-white" />
+                  </button>
+                </a>
               </Link>
+
             </div>
           </div>
         </div>
@@ -270,4 +307,3 @@ const Parentreview: React.FC = () => {
 };
 
 export default Parentreview;
-
