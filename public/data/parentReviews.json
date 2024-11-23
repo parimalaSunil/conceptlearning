@@ -1,0 +1,212 @@
+{
+    "parentReviews": [
+        {
+            "id":1,
+            "catagory": "Parent",
+            "name": "Alex Gevrenov",
+            "subject": "MYP , DP",
+            "feedback": "Our son enjoys the lessons with Parimala and his grades have markedly improved. She is methodical and finds a way to connect with the students at their level and bring them along. We are pleased with her style and outcome and definitely plan to continue. We feel very lucky to have found her.Thank you, Parimala.",
+            "batch": "Math AASL",
+            "position": "2"
+        },
+        {
+            "id":2,
+            "catagory": "Parent",
+            "name": "Amr Elnagar",
+            "subject": "MYP and IBCP",
+            "feedback": "Mrs. Parimala provided my son with Mathematics and Science tutoring lessons for MYP5 and IBCP. Her guidance and support for my son during this critical year was exemplary. She demonstrated such a wealth of experience and ability to teach him the mathematics and science curriculums, which were reflected in his progress and grades in these subjects.,In addition to her strong academic command of the subjects, Mrs. Parimala has hands-on experience in dealing with students at such a critical age, I highly recommend Mrs. Parimala as a seasoned professional teacher who will always leave a positive impact on her students.",
+            "batch": "Math AASL",
+            "position": "3"
+        },
+        {
+            "id":3,
+            "catagory": "Parent",
+            "name": "Ingy",
+            "subject": "Maths",
+            "feedback": "Parimala helped my daughter with her IB maths for 2 years MYP4 and 5. My daughter felt at ease with her style of teaching and she improved her confidence a lot with maths in the last 2 years of MYP. Her grades showed a steady improvement in those 2 years. Parimala is also flexible to suit the student timetable and always offers extra support before the tests to make sure that the student is fully supported. As a parent I did not have to worry about the support that my daughter has because I knew that Parimala will always jump to rescue her whenever there is a math test or assignment that my daughter struggles with. Thank you parimala for the great support.",
+            "batch": "MYP5",
+            "position": "1"
+        },
+        {
+            "id":4,
+            "catagory": "Parent",
+            "name": "Amrita Fernandes",
+            "subject": "DP",
+            "feedback": "We got to know of Ms Parimala when my son went to Year 12. We were actively looking for a teacher for Maths and Physics in the IB curriculum and Ms Parimala fit the bill. My son was extremely happy with the explanations especially with difficult topics and his approach towards those subjects changed for the better. By the end of the year he was not only confident but also improved his grades to our satisfaction . So thank you Parimala for your help and guidance. Best regards Amrita",
+            "batch": "Math AASL, Physics HL",
+            "position": "5"
+        },
+        {
+            "id":5,
+            "catagory": "Parent",
+            "name": "Phyliss Owen",
+            "subject": "MYP and IBDP",
+            "feedback": "It has been an amazing from the time Parimala has been my son’s maths teacher for the past 3yrs! She is patient, accommodating and very motivating! My son is a shy one but she was able to bring him out of his shell and making feel relaxed about maths, helping him conquer his fears! Most importantly his grades has really improved significantly, he is very happy and in a good place! My daughter is joining in the coming school year. Thanks so much Parimala for a job well done!! She highly recommended. Happy Mother Phyllis",
+            "batch": "Math AASL",
+            "position": "4"
+        },
+        {
+            "id":6,
+            "catagory": "Parent",
+            "name": "Alex Gevrenov",
+            "subject": "MYP , DP",
+            "feedback": "",
+            "batch": "Math AASL",
+            "position": "7"
+        },
+        {
+            "id":7,
+            "catagory": "Parent",
+            "name": "Radha Rajesh",
+            "subject": "Math, Science",
+            "feedback": "One of the biggest challenges we faced so far is making our daughter understand the concepts and teaching in their own frequency. Mrs. Parimala had made this easy for me by taking care of my daughter's Maths and Science subject. She has a lot of patience and knowledge which made my daughter understand the subjects easily. I am really thankful to Parimala for her help and support that she provided to us and to my child which made her understand the logic required for the IB curriculum. We feel lucky to find Parimala as a tutor. Thank you so much and we will be looking forward to your guidance in future too.",
+            "batch": "MYP3",
+            "position": "6"
+        },
+        {
+            "id":8,
+            "catagory": "Parent",
+            "name": "Shilpa David Goldwyn",
+            "subject": "MYP2",
+            "feedback": "From the very first session, it was evident that we had made the right choice. Not only does Ms Parimala possess a deep understanding of the IB curriculum, but her ability to convey complex concepts understandably is genuinely remarkable. One of the standout qualities of this Ms Parimala is her patience. She never rushes through topics, ensuring that our son grasps every concept before moving on. In addition, she fosters a welcoming and supportive environment that encourages questions, making our son feel at ease even when tackling challenging subjects. As parents, we are grateful for the academic progress our son has made under Ms Parimala's guidance and the mentorship and encouragement she provides. She instills a love for learning that extends beyond the classroom, emphasising the importance of critical thinking and problem-solving skills. We wholeheartedly recommend Ms Parimala to anyone seeking top-notch support for their child's IB studies in Math and Science. Shilpa &David",
+            "batch": "Math and Science",
+            "position": "9"
+        },
+        {
+            "id":9,
+            "catagory": "Parent",
+            "name": "Sunhye Son",
+            "subject": "MYP3 math and science",
+            "feedback": "Ms. Parimala is helping my son's Science, Math and I&S in myp1. My family came to the Netherlands two years ago and my son had many difficulties because it was his first time to go to international school. She helps him in many ways. My son said that it is easy to understand when Ms. Parimala explains what he did not understand in school class. She helps with hard assignments or preparations for exams. She is so passionate. She encourages him to do his best. Thanks to this, my son got improved in concentration and confidence. I'm so lucky to have a lesson with Ms. Parimala.",
+            "batch": "Math",
+            "position": "10"
+        },
+        {
+            "id":10,
+            "catagory": "Parent",
+            "name": "Yulduz Seitniyazova",
+            "subject": "MYP",
+            "feedback": "Mrs Parimala helped my son with math and English classes. I want to express my appreciation for all her efforts to help my son to believe in his abilities. She is a very patient and encouraging teacher who knows how to find a way to explain things to each student individually. I could see a great progress in my son’s performance, getting good scores on his tests and becoming more confident. I would like to thank Mrs Parimala for the wonderful work she is doing and wish all the best! Thank you for being an excellent teacher!",
+            "batch": "Math",
+            "position": "12"
+        },
+        {
+            "id":11,
+            "catagory": "Parent",
+            "name": "Aarti Chakote",
+            "subject": "MYP3 ",
+            "feedback": "Parimala is a professional 'teacher' is a true sense. Our daughter was not doing well in Maths. However when she joined Parimala's Maths classes, it helped a lot. She is well aware of IB curriculum & her teaching is very effective based on the level of the student. Our daughter also attends science classes as well. It helped our daughter to get improved grades in both the subjects. Thank you Parimala. Wishing you all the best.",
+            "batch": "Math and Science",
+            "position": "11"
+        },
+        {
+            "id":12,
+            "catagory": "Parent",
+            "name": "Akashdeep Duadhria",
+            "subject": "MYP",
+            "feedback": "It’s my pleasure to write about your tutoring class. I don’t know how I can tell you that you did a lot for our son. With your efforts and teaching he got good grades in his math class. And I’m happy to see him again in your tutoring sessions. And thank you very much for your help.",
+            "batch": "Math",
+            "position": "5"
+        },
+        {
+            "id":13,
+            "catagory": "Parent",
+            "name": "Sarah Lodhi",
+            "subject": "MYP5",
+            "feedback": "Parimala has tutored our son in mathematics and science since the start of the academic year 2020/21. She was very flexible with our timetable and put in extra hours when necessary. She has been a wonderful support and our son has done remarkably well in these subjects! We are looking forward to continuing with her tutoring next year. Parimala is a very patient and understanding tutor and has really helped build my sons confidence during these academic years.",
+            "batch": "Math AASL, BIOSL",
+            "position": "14"
+        },
+        {
+            "id":14,
+            "catagory": "Parent",
+            "name": "Praveen Naidu",
+            "subject": "MYP",
+            "feedback": "Parimala’s approach to coaching is unique.She has sound knowledge on IB Curriculum and its pattern. Students are taught about how to approach a problem and different ways of solving them. I have definitely seen an improvement after my daughter started to receive lessons from Parimala. She understands the IB requirements and focuses on specific topics that are important to get good scores in exams. She prepares well before every class and has set an agenda to assist students. She pays individual attention and arranges extra classes especially during exams that helped my daughter with an additional support and gain confidence to appear for exams.",
+            "batch": "Math and Science",
+            "position": "15"
+        },
+        {
+            "id":15,
+            "catagory": "Parent",
+            "name": "Deepa Trivedi",
+            "subject": "MYP",
+            "feedback": "This class helped my son a lot on various aspects that made a significant difference in his academics. His concentration improved a lot and his math and science has grown. More importantly his attitude towards studying has drastically improved. The Mrs Parimala is very patient and is always open to questions this allowed my son to further increase his knowledge and explore more complex topics. I am overjoyed and I highly recommend this class.",
+            "batch": "Math and Science",
+            "position": "16"
+        },
+        {
+            "id":16,
+            "catagory": "Parent",
+            "name": "Sanika Gadgil",
+            "subject": "MYP , DP",
+            "feedback": "Dear Parimala,Thank you for coaching my daughter to prepare for the math Olympiad. With your help she was able to cover her Olympiad syllabus which was way more than her regular school curriculum. You are a great teacher and you know how to inspire your students for learning. Keep up the good work.",
+            "batch": "Math AASL",
+            "position": "17"
+        },
+        {
+            "id":17,
+            "catagory": "Parent",
+            "name": "Alex Gevrenov",
+            "subject": "MYP5, Junior Wiskunde Olympiad, NL, 2020 Selected",
+            "feedback": "Dear Parimala,Thank you for coaching my daughter to prepare for the math Olympiad. With your help she was able to cover her Olympiad syllabus which was way more than her regular school curriculum. You are a great teacher and you know how to inspire your students for learning. Keep up the good work.",
+            "batch": "2020",
+            "position": "19"
+        },
+        {
+            "id":18,
+            "catagory": "Parent",
+            "name": "Soumya D",
+            "subject": "DP",
+            "feedback": "We approached Ms.Parimala for my daughters DP math AAHL and Physics HL. We found out about her classes at the right time recommended by one of our friends when my daughter was struggling with the subjects. Her lessons provided the bridge that was needed to deliver for the high-level subjects. This definitely reflected in her grades being improved and also finishing her DP with good grades in both subjects. Thank you for your timely support and wishing you and your students good luck. Regards, Soumya D.",
+            "batch": "Phyics HL, Math AAHL",
+            "position": "18"
+        },
+        {
+            "id":19,
+            "catagory": "Parent",
+            "name": "Suchitra Nair",
+            "subject": "Myp5 and DP",
+            "feedback": "Parimala's dedication & approach to teaching is truly commendable. We appreciate her flexibility in adapting her style to cater to the specific requirements of students. Her familiarity with IB curriculum is quite handy for IB students to fine-tune their approach to addressing the various knowledge criteria prescribed by the IB curriculum. That has helped my son to effectively handle IB criteria-based evaluations and contributed positively in boosting his confidence. We wish her and her students the very best. Best regards, Suchitra.",
+            "batch": "Math AASL",
+            "position": "20"
+        },
+        {
+            "id":20,
+            "catagory": "Parent",
+            "name": "Swetha Vaskari",
+            "subject": "MYP5",
+            "feedback": "Ms Parimala has guided our son in Mathematics and Science this year. We have seen a great improvement in his grades. My son is very happy with her guidance. She is a great tutor and we are very happy to have known her and choose to continue. I would recommend her for the classes. Thank you Ms Parimala. Swetha Vaskari.",
+            "batch": "Math and Science",
+            "position": "21"
+        },
+        {
+            "id":21,
+            "catagory": "Parent",
+            "name": "Zayra Varela",
+            "subject": "MYP5",
+            "feedback": "Parimala is an splendid tutor who clearly communicates and supports students. Her classes are beneficial and productive which really helps preparing students for exams, homeworks, etc. My daughter and son were happy with her lessons during MYP and DP.",
+            "batch": "Math AASL",
+            "position": "22"
+        },
+        {
+            "id":22,
+            "catagory": "Parent",
+            "name": "Anupama Bala",
+            "subject": "MYP3",
+            "feedback": "Experienced tutor. Good coaching and guide for IB curriculum students. Expert in teaching and clearing the doubts easily. A good place to learn for after school. Your coaching and classes are really helpful and knowledgeable sessions. Thanks for your wonderful classes, Parimala!",
+            "batch": "Math",
+            "position": "23"
+        },
+        {
+            "id":23,
+            "catagory": "Parent",
+            "name": "Priyanka Sharma",
+            "subject": "MYP",
+            "feedback": "First, I want to thank you for your time and effort to mentor my kid. With your guidance and mentoring, our daughter has developed confidence and understanding of the subjects. You were always there to help her in understanding and clearing her doubts. You explained very well the things written in textbook, which were hard to understand. I really thank you for being such an important part in my daughter's development. Thank you!!",
+            "batch": "Math and Science",
+            "position": "13"
+        }
+
+    ]
+}

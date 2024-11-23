@@ -1,0 +1,67 @@
+{
+    "studentReviews": [
+        {
+            "id":1,
+            "catagory": "Student",
+            "name": "Tais",
+            "subject": "IBDP",
+            "feedback": "Hi Ms Parimala, I got my diploma results a few days ago and I am very with my grades! I got a 6 out of 7 in both Physics HL and Math HL. I wanted to let you know because I thought you would be happy to hear that, you helped me get those grades!",
+            "batch": "",
+            "position": "7" 
+    },
+    {
+        "id":2,
+        "catagory": "Student",
+        "name": "Joshua",
+        "subject": "IBDP",
+        "feedback": "Hi ma’am, I just wanted to say thank you for all of your lessons, all of them helped me so much in excelling in physics in these classes and in school and thank you for making me much more confident in this subject.",
+        "batch": "",
+        "position": "1" 
+    },
+    {
+        "id":3,
+        "catagory": "Student",
+        "name": "Tae",
+        "subject": "MYP3",
+        "feedback": "Hi Ms, I was new to NL and was struggling with English language and IB curriculum. The personal attention really helped understand many technical words in science and math for the criteria’s and truly gave me more confidence in doing the exams well. Thank you for your kind patience during the years.",
+        "batch": "",
+        "position": "2" 
+    },
+    {
+        "id":4,
+        "catagory": "Student",
+        "name": "Tanushka",
+        "subject": "MYP4",
+        "feedback": "I  really appreciate how you approach our tutoring sessions. It’s helpful that you explain multiple methods for solving problems, beyond just what we learn in school. What I value most is how you focus on giving me a few challenging questions rather than a large number of repetitive ones, this really helped me to do well in my tests.",
+        "batch": "",
+        "position": "3" 
+    },
+    {
+        "id":5,
+        "catagory": "Student",
+        "name": "Arnav",
+        "subject": "MYP5",
+        "feedback": "Hi Ms, I never knew I would be able to get those good grades. I got the subject recommendation for DP which I wanted. I started off very badly in MYP beginning years and had lost confidence if I would be doing any better. I thank you very much for personally giving more attention on my week points and working on them. It wouldn’t have been possible without you.",
+        "batch": "",
+        "position": "4" 
+    },
+    {
+        "id":6,
+        "catagory": "Student",
+        "name": "Shlok",
+        "subject": "IBDP",
+        "feedback": "Hello Ma’am, it was my graduation today! I wanted to thank you for helping me out with maths. It was very important for me this year and I wouldn’t have been able to do it without you… Thank you.",
+        "batch": "",
+        "position": "5" 
+    },
+    {
+        "id":7,
+        "catagory": "Student",
+        "name": "Karim",
+        "subject": "IBCP",
+        "feedback": "Hi Ms Parimala, I just want to say that I really appreciate the help you’ve given me and thank you for making me understand that it is really important to stay focused. Thank you so much for the help over the years. I appreciate it very much!",
+        "batch": "",
+        "position": "6" 
+    }
+    ]
+}
