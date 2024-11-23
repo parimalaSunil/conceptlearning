@@ -1,9 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
   "/reviews/ParentReview/page": "app/reviews/ParentReview/page.js",
-  "/reviews/studentsreview/page": "app/reviews/studentsreview/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/about/page": "app/about/page.js",
-  "/lesson/page": "app/lesson/page.js"
+  "/editReviews/page": "app/editReviews/page.js"
 }

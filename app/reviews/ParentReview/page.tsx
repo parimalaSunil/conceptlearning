@@ -199,7 +199,7 @@ const Parentreview: React.FC = () => {
       try {
         setLoading(true); // Start loading
         console.log("Fetching data.....................");
-        const response = await fetch('/api/fetchGoogleSheetsData');
+        const response = await fetch('/data/parentReviews.json');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

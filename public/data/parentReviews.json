@@ -45,15 +45,7 @@
             "batch": "Math AASL",
             "position": "4"
         },
-        {
-            "id":6,
-            "catagory": "Parent",
-            "name": "Alex Gevrenov",
-            "subject": "MYP , DP",
-            "feedback": "",
-            "batch": "Math AASL",
-            "position": "7"
-        },
+
         {
             "id":7,
             "catagory": "Parent",
@@ -144,15 +136,7 @@
             "batch": "Math AASL",
             "position": "17"
         },
-        {
-            "id":17,
-            "catagory": "Parent",
-            "name": "Alex Gevrenov",
-            "subject": "MYP5, Junior Wiskunde Olympiad, NL, 2020 Selected",
-            "feedback": "Dear Parimala,Thank you for coaching my daughter to prepare for the math Olympiad. With your help she was able to cover her Olympiad syllabus which was way more than her regular school curriculum. You are a great teacher and you know how to inspire your students for learning. Keep up the good work.",
-            "batch": "2020",
-            "position": "19"
-        },
+
         {
             "id":18,
             "catagory": "Parent",
