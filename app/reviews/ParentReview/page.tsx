@@ -184,7 +184,8 @@ import Link from 'next/link';
 
 const Parentreview: React.FC = () => {
   const [reviews, setReviews] = useState<any[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [tabData, setTabData] = useState<{ [key: string]: any[] }>({});
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -200,7 +201,10 @@ const Parentreview: React.FC = () => {
         setLoading(true);
         console.log("Fetching data from Google Sheets...");
         const sheetId = '1_XgwtS7vj6DguQUFVORWk5CeU4aHpYHD97O3Lj2XmAY';
-        const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json`;
+        const gid = [
+          { name: 'ParentReviews', gid: '0' },
+        ];
+        const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json&gid=${gid}`;
   
         const response = await fetch(url);
         if (!response.ok) {
@@ -248,7 +252,56 @@ const Parentreview: React.FC = () => {
     getData();
   }, []);
   
-  
+//   const sheetId = '1_XgwtS7vj6DguQUFVORWk5CeU4aHpYHD97O3Lj2XmAY';
+// const tabs = [
+//   { name: 'ParentReviews', gid: '0' },
+// ];
+
+
+//   const fetchTabData = async (gid: string) => {
+//     const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json&gid=${gid}`;
+//     const response = await fetch(url);
+//     const rawText = await response.text();
+
+//     const jsonString = rawText.substring(47).slice(0, -2);
+//     const json = JSON.parse(jsonString);
+
+//     // Process rows into a usable format
+//     const rows = json?.table?.rows?.map((row: { c: { v: any }[] }) =>
+//       row?.c?.map((cell: { v: any }) => cell?.v || '')
+//     );
+//     console.log("Fetched rows:", rows);
+
+//     return rows;
+//   };
+
+//   const fetchAllTabs = async () => {
+//     const allData: { [key: string]: any[] } = {};
+//     for (const tab of tabs) {
+//       const data = await fetchTabData(tab.gid);
+//       allData[tab.name] = data;
+//     }
+//     return allData;
+//   };
+
+//   useEffect(() => {
+//     const loadData = async () => {
+//       setLoading(true);
+//       try {
+//         const data = await fetchAllTabs();
+//         setTabData(data);
+//         console.log('Fetched data from all tabs:', data);
+//         return data;
+//       } catch (err) {
+//         console.error('Error fetching data:', err);
+//         setError('Failed to fetch data.');
+//       } finally {
+//         setLoading(false);
+//       }
+//     };
+
+//     getData();
+//   }, []);
 
   return (
     <div className="bg-gradient-to-r from-blue-100 to-blue-50 overflow-hidden">
